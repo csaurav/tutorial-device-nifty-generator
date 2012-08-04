@@ -1,4 +1,6 @@
 Ideaz::Application.routes.draw do
+  get "destroy/test"
+
   get "welcome/index"
 
   # The priority is based upon order of creation:
@@ -51,6 +53,7 @@ Ideaz::Application.routes.draw do
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
   root :to => 'welcome#index'
+  resources :test
 
   # See how all your routes lay out with "rake routes"
 

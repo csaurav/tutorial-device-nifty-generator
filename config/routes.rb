@@ -1,5 +1,5 @@
 Ideaz::Application.routes.draw do
-  get "destroy/test"
+  devise_for :users
 
   get "welcome/index"
 

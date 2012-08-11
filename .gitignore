@@ -16,5 +16,4 @@
 
 config/database.yml
 public/index_1.html
-config/environments/development.rb
-config/environments/production.rb
+
